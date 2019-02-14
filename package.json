@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Dmitry Belov"
+  },
+  "description": "React Native bridge for Adyen Swift SDK and Adyen Android SDK",
+  "devDependencies": {},
+  "homepage": "",
+  "keywords": [
+    "Adyen",
+    "React Native",
+    "iOS",
+    "Android",
+    "adyen rn",
+    "adyen react"
+  ],
+  "license": "MIT",
+  "name": "adyen-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitry-blackwave/adyen-react-native.git"
+  },
+  "version": "0.1"
+}
