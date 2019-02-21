@@ -1,2 +1,6 @@
 .idea/*
+ios/Pods
 .DS_STORE
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
