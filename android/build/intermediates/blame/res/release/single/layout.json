@@ -1,0 +1,358 @@
+[
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_cup_secure_plus_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_cup_secure_plus_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_media_action.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/fragment_nfc_card_reader_tutorial.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/fragment_nfc_card_reader_tutorial.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/browser_actions_context_menu_page.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/2d38a0af89ba5b4026a43dee961eb987/res/layout/browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/dev_loading_view.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/layout/dev_loading_view.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/fragment_checkout_method_picker.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/fragment_checkout_method_picker.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_navigation_menu_item.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_layout_tab_icon.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_open_invoice_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_open_invoice_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/redbox_item_title.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/layout/redbox_item_title.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/fragment_card_one_click_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/fragment_card_one_click_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_card_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_card_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/browser_actions_context_menu_row.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/2d38a0af89ba5b4026a43dee961eb987/res/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/item_two_line.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/item_two_line.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/view_numpad.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/view_numpad.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/input_error_feedback_layout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/input_error_feedback_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/redbox_view.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/layout/redbox_view.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/item_iban_suggestion.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/item_iban_suggestion.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_tooltip.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/dialog_fragment_error.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/dialog_fragment_error.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_checkout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_checkout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_layout_tab_text.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/fragment_preselected_checkout_method.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/fragment_preselected_checkout_method.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/fps_view.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/layout/fps_view.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/redbox_item_frame.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/layout/redbox_item_frame.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_big_media.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_card_cup_secure_plus_one_click_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_card_cup_secure_plus_one_click_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_qiwi_wallet_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_qiwi_wallet_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_sdd_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_sdd_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_giropay_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_giropay_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/input_details_item_dropdown.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/input_details_item_dropdown.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/item_dropdown.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/item_dropdown.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_text_input_password_icon.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/layout_address_details_input.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/layout_address_details_input.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/layout_personal_details_input.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/layout_personal_details_input.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_template_big_media_custom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/06bef49a27edbccdc0aa511473628c1c/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_doku_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_doku_details.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout/activity_issuer_details.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/layout/activity_issuer_details.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

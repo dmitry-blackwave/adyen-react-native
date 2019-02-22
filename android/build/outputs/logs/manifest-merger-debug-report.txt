@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:2:11-41
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:1:1-8:12
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:5:5-75
+	android:name
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:6:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml:7:22-78
+uses-sdk
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+		ADDED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/src/main/AndroidManifest.xml

@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/slide_in_right.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/catalyst_fade_in.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/anim/catalyst_fade_in.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/slide_out_left.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/progress_dialog_fragment_in.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/progress_dialog_fragment_in.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/catalyst_push_up_out.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/slide_out_right.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/slide_in_left.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/progress_dialog_fragment_out.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/progress_dialog_fragment_out.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/catalyst_push_up_in.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/catalyst_slide_up.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/anim/catalyst_slide_up.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/fade_out_to_bottom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/fade_out_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/catalyst_slide_down.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/anim/catalyst_slide_down.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/fade_in_from_bottom.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/anim/fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/catalyst_fade_out.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/5042bd8f3fd501ecdfa788ac92b64dd4/res/anim/catalyst_fade_out.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/anim/design_snackbar_out.xml"
+    }
+]

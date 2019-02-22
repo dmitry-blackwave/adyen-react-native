@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="bank_account_number">Bank account number (IBAN)</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_number_of_installments">Number of installments</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="checkout_address_city">城市</string>
+    <string name="checkout_address_country">國家/地區</string>
+    <string name="checkout_address_house_number">門牌號</string>
+    <string name="checkout_address_postal_code">郵遞區號</string>
+    <string name="checkout_address_street">街道</string>
+    <string name="checkout_afterpay_conditions">付款細則</string>
+    <string name="checkout_afterpay_terms_and_conditions_text">我同意 AfterPay 的%s</string>
+    <string name="checkout_backspace">退格</string>
+    <string name="checkout_billing_address_title">帳單地址</string>
+    <string name="checkout_card_card_number_hint">信用卡號碼</string>
+    <string name="checkout_card_cup_secure_plus_details_activity_title">驗證</string>
+    <string name="checkout_card_cup_secure_plus_phone_number_hint">行動電話號碼</string>
+    <string name="checkout_card_cup_secure_plus_sms_code_caption">SMS 碼</string>
+    <string name="checkout_card_cup_secure_plus_sms_code_prompt">我們已將含有驗證碼的文字訊息傳送到您註冊的電話號碼。</string>
+    <string name="checkout_card_expiry_date_caption">到期日期</string>
+    <string name="checkout_card_expiry_date_hint">MM/YY</string>
+    <string name="checkout_card_holder_name_hint">持卡人姓名</string>
+    <string name="checkout_card_installments">分期付款的期數</string>
+    <string name="checkout_card_nfc_error_card_unsupported">不支援此信用卡。</string>
+    <string name="checkout_card_nfc_error_chip_unsupported">請出示單一信用卡。</string>
+    <string name="checkout_card_nfc_error_connection_lost">請再試一次。</string>
+    <string name="checkout_card_one_click_expires_format">%s 到期</string>
+    <string name="checkout_card_one_click_security_code_prompt">請輸入 %s 的信用卡驗證碼</string>
+    <string name="checkout_card_reader_tutorial_action">NFC 讀卡機</string>
+    <string name="checkout_card_reader_tutorial_enable_nfc">啟用 NFC</string>
+    <string name="checkout_card_reader_tutorial_explanation">把信用卡貼近手機背面頂部。</string>
+    <string name="checkout_card_reader_tutorial_title">信用卡讀卡機</string>
+    <string name="checkout_card_security_code_hint">信用卡驗證碼 / 信用卡安全碼</string>
+    <string name="checkout_delivery_address_title">派送地址</string>
+    <string name="checkout_doku_email_address">電子郵件地址</string>
+    <string name="checkout_doku_first_name">名字</string>
+    <string name="checkout_doku_last_name">姓氏</string>
+    <string name="checkout_error_dialog_title">錯誤</string>
+    <string name="checkout_error_message_default">操作期間發生錯誤。</string>
+    <string name="checkout_error_message_network_hint">請檢查您的網路連線並再試一次。</string>
+    <string name="checkout_error_message_network_unavailable">無法連接網路，請檢查您的網路連線。</string>
+    <string name="checkout_error_redirect_failed">無法重新導向</string>
+    <string name="checkout_giropay_error_search_no_results">沒有搜尋結果</string>
+    <string name="checkout_giropay_search_hint">銀行名稱 / BIC (銀行識別碼) / 銀行代碼</string>
+    <string name="checkout_input_error_empty_field">此為必填欄位，請務必填寫。</string>
+    <string name="checkout_input_error_incorrect_format">輸入的格式無效。</string>
+    <string name="checkout_issuer_choose_issuer">選取您的銀行</string>
+    <string name="checkout_issuer_open_with_app_format">使用 %s 開啟</string>
+    <string name="checkout_klarna_consent">同意</string>
+    <string name="checkout_klarna_more_information">更多資訊</string>
+    <string name="checkout_klarna_terms_and_conditions_text">我同意 Klarna 因身份、信用評估和購物結帳用途而處理我的資料。我可能撤銷對處理資料和法律允許處理資料用途的%s。商家的一般條款及細則適用。</string>
+    <string name="checkout_nfc_settings_redirect_failed_toast">重新導向至 NFC 設定失敗</string>
+    <string name="checkout_ok">確定</string>
+    <string name="checkout_one_click_delete">刪除</string>
+    <string name="checkout_one_click_delete_confirmation_message">是否刪除付款方式 %s？</string>
+    <string name="checkout_one_click_payment_method_section_title">您的付款方式</string>
+    <string name="checkout_pay_amount_format">支付 %s</string>
+    <string name="checkout_payment_method_section_title">付款方式</string>
+    <string name="checkout_payment_method_section_with_one_click_title">選取其他方式</string>
+    <string name="checkout_personal_details_date_of_birth">出生日期</string>
+    <string name="checkout_personal_details_first_name">名字</string>
+    <string name="checkout_personal_details_gender">性別</string>
+    <string name="checkout_personal_details_gender_female">女</string>
+    <string name="checkout_personal_details_gender_male">男</string>
+    <string name="checkout_personal_details_gender_unknown">未知</string>
+    <string name="checkout_personal_details_infix">前綴</string>
+    <string name="checkout_personal_details_last_name">姓氏</string>
+    <string name="checkout_personal_details_shopper_email">電子郵件地址</string>
+    <string name="checkout_personal_details_social_security_number">社會安全碼</string>
+    <string name="checkout_personal_details_telehone_number">電話號碼</string>
+    <string name="checkout_personal_details_title">個人詳細資料</string>
+    <string name="checkout_qiwiwallet_country_code_tooltip">國家代碼</string>
+    <string name="checkout_qiwiwallet_phone_number_caption">行動電話號碼</string>
+    <string name="checkout_qiwiwallet_phone_number_hint">123–456–789</string>
+    <string name="checkout_sdd_account_holder_name">持有人名稱</string>
+    <string name="checkout_sdd_consent">我同意從我的銀行帳戶扣除下列金額。</string>
+    <string name="checkout_sdd_iban">帳戶號碼 (IBAN)</string>
+    <string name="checkout_sdd_iban_suggestion">您是指</string>
+    <string name="checkout_select_other_payment_method">選取其他方式</string>
+    <string name="checkout_separate_delivery_address">指定另一個派送地址</string>
+    <string name="checkout_skip">跳過</string>
+    <string name="checkout_store_details">儲存以供下次付款使用</string>
+    <string name="checkout_surcharge_total_amount_format">總金額包括 %s 附加費。</string>
+    <string name="checkout_terms_and_conditions_title">條款及細則</string>
+    <string name="checkout_terms_and_conditions_toggle">同意條款及細則</string>
+    <string name="checkout_title">結帳</string>
+    <string name="cvc_extended_hint_with_last_digits">Please enter the CVC code for %1$s</string>
+    <string name="direct_debit_consent">I agree that the amount below will be debited from my bank account.</string>
+    <string name="example">Example:</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="giropay_search_field_hint">Bankname / BIC / Bankleitzahl</string>
+    <string name="hint_cardholder_name">John Snow</string>
+    <string name="hint_expiry_date">MM/YY</string>
+    <string name="hint_iban_number">NL53 ABNA 1925 1294 122</string>
+    <string name="min_3_chars">Min. 3 characters</string>
+    <string name="other_payment_methods_label">Select other method</string>
+    <string name="pay_with_amount">Pay %1$s</string>
+    <string name="preferred_payment_methods_label">Your payment methods</string>
+    <string name="remember_card_hint">Remember card</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_card_details">Card Details</string>
+    <string name="title_payment_methods">Payment Methods</string>
+    <string name="title_sepa">SEPA Direct Debit</string>
+    <string name="title_verify_card">Verify your card</string>
+</resources>

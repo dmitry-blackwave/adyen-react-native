@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/suggestion_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/suggestion_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_broken_image_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_broken_image_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/numpad_button_state_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/numpad_button_state_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_primary_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_primary_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_backspace_black_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_backspace_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/card_reader_tutorial_animation.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/card_reader_tutorial_animation.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_lock_to_checkmark_animated.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_lock_to_checkmark_animated.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_image_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_image_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/design_password_eye.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_input_error.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_input_error.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/card_reader_tutorial_animation_reverse.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/card_reader_tutorial_animation_reverse.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/numpad_button_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/numpad_button_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_info_outline_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_info_outline_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_contactless_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_contactless_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_clear_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_clear_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/ic_lock_to_checkmark_animated_reverse.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/ui-2.3.2.aar/a764a358effc674dcec0dfd01f71fc63/res/drawable/ic_lock_to_checkmark_animated_reverse.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3216c4b33b727886370f34fbf386ba78/res/drawable/notification_bg_low.xml"
+    }
+]

@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
+                    "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/37c1ec17fc9f6d39398916b98fcf6a0a/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

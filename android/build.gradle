@@ -1,28 +1,44 @@
 apply plugin: 'com.android.library'
 
 android {
-  compileSdkVersion 25
-  buildToolsVersion "25.0.3"
-  defaultConfig {
-    minSdkVersion 16
-    targetSdkVersion 25
-    versionCode
-    versionName "1.0"1
-    ndk {
-      abiFilters "armeabi-v7a", "x86"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode
+        versionName "1.0"
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
     }
-  }
 }
 
 allprojects {
-  repositories {
-    jcenter()
-    maven { url "$projectDir/../../react-native/android" }
-  }
+    repositories {
+        google()
+        jcenter()
+        maven { url "$projectDir/../../react-native/android" }
+    }
+
+    configurations {
+        all {
+            resolutionStrategy {
+                force "android.arch.lifecycle:livedata-core:${rootProject.ext.lifecycleVersion}"
+                force "android.arch.lifecycle:runtime:${rootProject.ext.lifecycleVersion}"
+                force "android.arch.lifecycle:viewmodel:${rootProject.ext.lifecycleVersion}"
+                force "android.arch.core:runtime:${rootProject.ext.lifecycleVersion}"
+            }
+        }
+    }
 }
 
 dependencies {
-  compile 'com.facebook.react:react-native:+'
-  final checkoutVersion = "2.x.x"
-  implementation "com.adyen.checkout:ui:${checkoutVersion}"
+    compile 'com.facebook.react:react-native:+'
+    compile "android.arch.lifecycle:extensions:${rootProject.ext.lifecycleVersion}"
+    compile "android.arch.core:runtime:${rootProject.ext.lifecycleVersion}"
+    compile "android.arch.lifecycle:viewmodel:${rootProject.ext.lifecycleVersion}"
+    compile "com.adyen.checkout:ui:2.3.2"
+    compile "com.adyen.checkout:core-card:2.3.2"
+    compile "com.adyen.checkout:util:2.3.2"
 }

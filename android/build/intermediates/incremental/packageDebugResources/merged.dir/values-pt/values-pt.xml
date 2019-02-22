@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bank_account_number">Bank account number (IBAN)</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="card_number">Número do Cartão</string>
+    <string name="card_number_of_installments">Number of installments</string>
+    <string name="cardholder_name">Titular do Cartão</string>
+    <string name="cvc_extended_hint_with_last_digits">Por favor insira o código CVC para %1$s</string>
+    <string name="direct_debit_consent">I agree that the amount below will be debited from my bank account.</string>
+    <string name="example">Example:</string>
+    <string name="expiry_date">Data de Vencimento</string>
+    <string name="giropay_search_field_hint">Bankname / BIC / Bankleitzahl</string>
+    <string name="hint_cardholder_name">João Silva</string>
+    <string name="hint_expiry_date">MM/AA</string>
+    <string name="hint_iban_number">NL53 ABNA 1925 1294 122</string>
+    <string name="min_3_chars">Min. 3 characters</string>
+    <string name="other_payment_methods_label">Select other method</string>
+    <string name="pay_with_amount">Pagar %1$s</string>
+    <string name="preferred_payment_methods_label">Your payment methods</string>
+    <string name="remember_card_hint">Lembrar o cartão</string>
+    <string name="title_card_details">Detalhes do cartão</string>
+    <string name="title_payment_methods">Meios de pagamento</string>
+    <string name="title_sepa">SEPA Direct Debit</string>
+    <string name="title_verify_card">Verifique o seu cartão</string>
+</resources>

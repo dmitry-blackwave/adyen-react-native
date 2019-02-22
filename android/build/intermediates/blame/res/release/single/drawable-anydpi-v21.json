@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/dmitry/Projects/hybrid-mobile-app/node_modules/adyen-react-native/android/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/dmitry/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/184913a5bbc1951749d6d2d149b6a96f/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

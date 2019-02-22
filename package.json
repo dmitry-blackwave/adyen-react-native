@@ -1,23 +1,57 @@
 {
+  "_from": "adyen-react-native",
+  "_id": "adyen-react-native@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9pp8zTSMANjCt8ovR6i2sosfyTZhWryytzTP/kzEoQhqbN3FHmcNAvuP3d1WdoRxFjr2GIMY9BAi2uCQO4pTeg==",
+  "_location": "/adyen-react-native",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "adyen-react-native",
+    "name": "adyen-react-native",
+    "escapedName": "adyen-react-native",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/adyen-react-native/-/adyen-react-native-1.0.0.tgz",
+  "_shasum": "6aac01a8c1bf95f6f2ac1bcc04005b0fe5dcb966",
+  "_spec": "adyen-react-native",
+  "_where": "/Users/dmitry/Projects/hybrid-mobile-app",
   "author": {
     "name": "Dmitry Belov"
   },
+  "bugs": {
+    "url": "https://github.com/dmitry-blackwave/adyen-react-native/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "React Native bridge for Adyen Swift SDK and Adyen Android SDK",
-  "devDependencies": {},
-  "homepage": "",
+  "homepage": "https://github.com/dmitry-blackwave/adyen-react-native#readme",
   "keywords": [
     "Adyen",
-    "React Native",
-    "iOS",
+    "Adyen",
+    "SDK",
     "Android",
-    "adyen rn",
-    "adyen react"
+    "Java",
+    "Swift",
+    "iOS",
+    "adyen"
   ],
   "license": "MIT",
+  "main": "index.js",
   "name": "adyen-react-native",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmitry-blackwave/adyen-react-native.git"
   },
-  "version": "0.1"
+  "scripts": {
+    "test": "test"
+  },
+  "version": "1.0.0"
 }
