@@ -4,3 +4,4 @@ ios/Pods
 xcuserdata/
 *.xcscmblueprint
 *.xccheckout
+android/build

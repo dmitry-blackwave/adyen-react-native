@@ -280,7 +280,7 @@ public class AdyenModule extends ReactContextBaseJavaModule implements ActivityE
                 mPaymentResult.invoke(paymentResult.getPayload());
             } else {
                 CheckoutException checkoutException = PaymentMethodHandler.Util.getCheckoutException(data);
-                mPaymentException.invoke(resultCode, checkoutException.getMessage());
+                mPaymentException.invoke(resultCode, "exception");
             }
         }
     }
