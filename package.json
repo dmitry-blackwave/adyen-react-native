@@ -1,6 +1,6 @@
 {
   "_from": "adyen-react-native",
-  "_id": "adyen-react-native@1.0.2",
+  "_id": "adyen-react-native@1.0.3",
   "_inBundle": false,
   "_integrity": "sha512-kOtlCVT1qAK76+rhLHBQHprREUlLcvfVJpL0ZeCKc2np+Tua3CdW9D6l+QzPWnHWili4Z8na50/09DvOJjwkjQ==",
   "_location": "/adyen-react-native",
@@ -53,5 +53,5 @@
   "scripts": {
     "test": "test"
   },
-  "version": "1.0.2"
+  "version": "1.0.3"
 }

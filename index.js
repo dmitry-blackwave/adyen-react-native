@@ -13,7 +13,9 @@ export default {
     },
     /**
      * Generating StartPaymentParameters
-     * @param string encodedToken
+     *
+     * @param {String} encodedToken
+     *
      * @returns {*}
      */
     confirmPayment(encodedToken) {
@@ -22,8 +24,7 @@ export default {
         return Adyen.confirmPayment(encodedToken);
     },
     /**
-     *
-     * @param string encodedToken
+     * @param {String} encodedToken
      * @returns {*}
      */
     createPaymentSession(encodedToken) {
@@ -32,27 +33,36 @@ export default {
         return Adyen.createPaymentSession(encodedToken);
     },
     /**
-     * Starting payment proccess.
+     * Starting payment process.
      * @returns {*}
      */
     initPayment() {
         return Adyen.initPayment();
     },
     /**
+     * @callback mOnRequestPaymentSession
+     * @param {String} token
+     * @param {String} returnUrl
+     */
+    /**
      * Native event. Calling when CheckoutController calls delegate in the native call.
      * It calling with token and returnUrl (can be empty, no worries)
-     * @param {function(string token, string returnUrl)} mOnRequestPaymentSession
+     * @param {mOnRequestPaymentSession} mOnRequestPaymentSession
      */
     onRequestPaymentSession(mOnRequestPaymentSession) {
         this._validateParam(mOnRequestPaymentSession, 'onRequestPaymentSession', 'function');
         events.addListener('onRequestPaymentSession', (response) => {
-            console.log(response);
             mOnRequestPaymentSession(response['token'], response['returnUrl']);
         });
     },
     /**
+     * @callback mOnPaymentResult
+     * @param {Number} code
+     * @param {String} payload
+     */
+    /**
      * After successfully payment, added payload data for confirmation payments
-     * @param {function(number code, string payloadData)} mOnPaymentResult
+     * @param {mOnPaymentResult} mOnPaymentResult
      */
     onPaymentResult(mOnPaymentResult) {
         this._validateParam(mOnPaymentResult, 'onPaymentResult', 'function');
@@ -61,8 +71,13 @@ export default {
         });
     },
     /**
+     * @callback mOnError
+     * @param {Number} code
+     * @param {String} message
+     */
+    /**
      * If payment was cancelled or something else. Calling instead of onPaymentResult event.
-     * @param {function(number code, string message)} mOnError
+     * @param {mOnError} mOnError
      */
     onError(mOnError) {
         this._validateParam(mOnError, 'onError', 'function');
@@ -71,8 +86,14 @@ export default {
         });
     },
     /**
+     * @callback mOnSelectPaymentMethod
+     * @param {Array<>} preferred
+     * @param {Array<>} other
+     * @param {number} count
+     */
+    /**
      * //TODO custom integration
-     * @param {function(preferred, other, number count)} mOnSelectPaymentMethod
+     * @param {mOnSelectPaymentMethod} mOnSelectPaymentMethod
      */
     onSelectPaymentMethod(mOnSelectPaymentMethod) {
         this._validateParam(mOnSelectPaymentMethod, 'onSelectPaymentMethod', 'function');
@@ -82,8 +103,8 @@ export default {
     },
     /**
      * @param {*} param
-     * @param string methodName
-     * @param string requiredType
+     * @param {String} methodName
+     * @param {String} requiredType
      * @private
      */
     _validateParam(param, methodName, requiredType) {
