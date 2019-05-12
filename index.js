@@ -1,132 +1,95 @@
-import { NativeEventEmitter, NativeModules } from 'react-native';
+import {NativeEventEmitter, NativeModules} from 'react-native';
 
-const { Adyen } = NativeModules;
-const RNEventEmitter = new NativeEventEmitter(Adyen);
+const Adyen = NativeModules.Adyen || NativeModules.AdyenReactNative;
+const events = new NativeEventEmitter(Adyen);
 
 export default {
-  /**
-   * The Quick integration of the SDK provides UI components for payment method selection, entering payment method details (credit card entry form, iDEAL issuer selection, etc.).
-   * @param {function(string sdkToken, string returnUrl)} requestPaymentSession
-   * @param {function(string error)} onError
-   * @returns {*}
-   */
-  startPayment(requestPaymentSession, onError) {
-    if (typeof requestPaymentSession !== 'function' || typeof onError !== 'function') {
-      throw new Error(
-          'Error: Adyen.startPayment() requires a callback function but got a ' + (typeof onError !== 'function' ? typeof onError : typeof requestPaymentSession),
-      );
-    }
-    
-    return Adyen.startPayment(requestPaymentSession, onError);
-  },
-  /**
-   * Generating StartPaymentParameters
-   * @param string encodedToken
-   * @param {function(string payload)} onPaymentResult
-   * @param {function(int resultCode, string error)} onPaymentException
-   * @returns {*}
-   */
-  confirmPayment(encodedToken, onPaymentResult, onPaymentException) {
-    if (typeof onPaymentResult !== 'function' || typeof onPaymentException !== 'function') {
-      throw new Error(
-          'Error: Adyen.confirmPayment() requires a callback function but got a ' + (typeof onPaymentException !== 'function' ? typeof onPaymentException : typeof onPaymentResult),
-      );
-    }
-    
-    if (typeof encodedToken !== 'string') {
-      throw new Error('Error: Adyen.confirmPayment() requires a string but got a ' + typeof encodedToken);
-    }
-    
-    return Adyen.confirmPayment(encodedToken, onPaymentResult, onPaymentException);
-  },
-  /**
-   *
-   * @param string encodedToken
-   * @param {function(array paymentMethods)} onReadyFormPayment
-   * @returns {*}
-   */
-  createPaymentSession(encodedToken, onReadyFormPayment) {
-    if (typeof onReadyFormPayment !== 'function') {
-      throw new Error('Error: Adyen.confirmPayment() requires a callback function but got a ' + typeof onReadyFormPayment);
-    }
-    
-    if (typeof encodedToken !== 'string') {
-      throw new Error('Error: Adyen.confirmPayment() requires a string but got a ' + typeof encodedToken);
-    }
-    
-    return Adyen.createPaymentSession(encodedToken, onReadyFormPayment);
-  },
-  /**
-   * Whether network requests are currently being executed.
-   * @param {function(bool isExecutingRequests)} mObserverNetworkingState
-   * @returns {*}
-   */
-  onObserverNetworkingState(mObserverNetworkingState) {
-    if (typeof mObserverNetworkingState !== 'function') {
-      throw new Error('Error: Adyen.onObserverNetworkingState() requires a callback function but got a ' + typeof mObserverNetworkingState);
-    }
-    
-    return Adyen.onObserverNetworkingState(mObserverNetworkingState);
-  },
-  /**
-   * A {@link PaymentSession} holds all relevant information that is needed to make a payment.
-   * @param {function(array paymentMethods)} mObserverPaymentSession
-   * @returns {*}
-   */
-  onObserverPaymentSession(mObserverPaymentSession) {
-    if (typeof mObserverPaymentSession !== 'function') {
-      throw new Error('Error: Adyen.onObserverPaymentSession() requires a callback function but got a ' + typeof mObserverPaymentSession);
-    }
-    
-    return Adyen.onObserverPaymentSession(mObserverPaymentSession);
-  },
-  /**
-   * The {@link PaymentResult} describes the result of a payment.
-   * @param {function(string payLoad, string resultCode)} mObserverPaymentResult
-   * @returns {*}
-   */
-  onObserverPaymentResult(mObserverPaymentResult) {
-    if (typeof mObserverPaymentResult !== 'function') {
-      throw new Error('Error: Adyen.onObserverPaymentResult() requires a callback function but got a ' + typeof mObserverPaymentResult);
-    }
-    
-    return Adyen.onObserverPaymentResult(mObserverPaymentResult);
-  },
-  /**
-   * Called when a redirect is required to continue with the payment.
-   * @param {function(string uri)} mObserverRedirectDetails
-   * @returns {*}
-   */
-  onObserverRedirectDetails(mObserverRedirectDetails) {
-    if (typeof mObserverRedirectDetails !== 'function') {
-      throw new Error('Error: Adyen.onObserverRedirectDetails() requires a callback function but got a ' + typeof mObserverRedirectDetails);
-    }
-    
-    return Adyen.onObserverRedirectDetails(mObserverRedirectDetails);
-  },
-  /**
-   * Called when additional details are required to continue with the payment.
-   * @param {function(string paymentMethodType, array inputDetails)} mObserverAdditionalDetails
-   * @returns {*}
-   */
-  onObserverAdditionalDetails(mObserverAdditionalDetails) {
-    if (typeof mObserverAdditionalDetails !== 'function') {
-      throw new Error('Error: Adyen.onObserverAdditionalDetails() requires a callback function but got a ' + typeof mObserverAdditionalDetails);
-    }
-    
-    return Adyen.onObserverAdditionalDetails(mObserverAdditionalDetails);
-  },
-  /**
-   * Called when an error occurred during the payment.
-   * @param {function(string error)} mObserverException
-   * @returns {*}
-   */
-  onObserverException(mObserverException) {
-    if (typeof mObserverException !== 'function') {
-      throw new Error('Error: Adyen.onObserverException() requires a callback function but got a ' + typeof mObserverException);
-    }
-    
-    return Adyen.onObserverException(mObserverException);
-  },
-  RNEventEmitter,
+    /**
+     * The Quick integration of the SDK provides UI components for payment method selection, entering payment method details (credit card entry form, iDEAL issuer selection, etc.).
+     * @returns {*}
+     */
+    startPayment() {
+        return Adyen.startPayment();
+    },
+    /**
+     * Generating StartPaymentParameters
+     * @param string encodedToken
+     * @returns {*}
+     */
+    confirmPayment(encodedToken) {
+        this._validateParam(encodedToken, 'confirmPayment', 'string');
+
+        return Adyen.confirmPayment(encodedToken);
+    },
+    /**
+     *
+     * @param string encodedToken
+     * @returns {*}
+     */
+    createPaymentSession(encodedToken) {
+        this._validateParam(encodedToken, 'createPaymentSession', 'string');
+
+        return Adyen.createPaymentSession(encodedToken);
+    },
+    /**
+     * Starting payment proccess.
+     * @returns {*}
+     */
+    initPayment() {
+        return Adyen.initPayment();
+    },
+    /**
+     * Native event. Calling when CheckoutController calls delegate in the native call.
+     * It calling with token and returnUrl (can be empty, no worries)
+     * @param {function(string token, string returnUrl)} mOnRequestPaymentSession
+     */
+    onRequestPaymentSession(mOnRequestPaymentSession) {
+        this._validateParam(mOnRequestPaymentSession, 'onRequestPaymentSession', 'function');
+        events.addListener('onRequestPaymentSession', (response) => {
+            console.log(response);
+            mOnRequestPaymentSession(response['token'], response['returnUrl']);
+        });
+    },
+    /**
+     * After successfully payment, added payload data for confirmation payments
+     * @param {function(number code, string payloadData)} mOnPaymentResult
+     */
+    onPaymentResult(mOnPaymentResult) {
+        this._validateParam(mOnPaymentResult, 'onPaymentResult', 'function');
+        events.addListener('onPaymentResult', (response) => {
+            mOnPaymentResult(response['code'], response['payload']);
+        });
+    },
+    /**
+     * If payment was cancelled or something else. Calling instead of onPaymentResult event.
+     * @param {function(number code, string message)} mOnError
+     */
+    onError(mOnError) {
+        this._validateParam(mOnError, 'onError', 'function');
+        events.addListener('onError', (response) => {
+            mOnRequestPaymentSession(response['code'], response['message']);
+        });
+    },
+    /**
+     * //TODO custom integration
+     * @param {function(preferred, other, number count)} mOnSelectPaymentMethod
+     */
+    onSelectPaymentMethod(mOnSelectPaymentMethod) {
+        this._validateParam(mOnSelectPaymentMethod, 'onSelectPaymentMethod', 'function');
+        events.addListener('onSelectPaymentMethod', (response) => {
+            mOnSelectPaymentMethod(response['preferred'], response['other'], response['count']);
+        });
+    },
+    /**
+     * @param {*} param
+     * @param string methodName
+     * @param string requiredType
+     * @private
+     */
+    _validateParam(param, methodName, requiredType) {
+        if (typeof param !== requiredType) {
+            throw new Error(`Error: Adyen.${methodName}() requires a ${requiredType === 'function' ? 'callback function' : requiredType} but got a ${typeof param}`);
+        }
+    },
+    events
 };

@@ -1,8 +1,8 @@
 {
   "_from": "adyen-react-native",
-  "_id": "adyen-react-native@1.0.0",
+  "_id": "adyen-react-native@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-9pp8zTSMANjCt8ovR6i2sosfyTZhWryytzTP/kzEoQhqbN3FHmcNAvuP3d1WdoRxFjr2GIMY9BAi2uCQO4pTeg==",
+  "_integrity": "sha512-kOtlCVT1qAK76+rhLHBQHprREUlLcvfVJpL0ZeCKc2np+Tua3CdW9D6l+QzPWnHWili4Z8na50/09DvOJjwkjQ==",
   "_location": "/adyen-react-native",
   "_phantomChildren": {},
   "_requested": {
@@ -19,10 +19,10 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/adyen-react-native/-/adyen-react-native-1.0.0.tgz",
-  "_shasum": "6aac01a8c1bf95f6f2ac1bcc04005b0fe5dcb966",
+  "_resolved": "https://registry.npmjs.org/adyen-react-native/-/adyen-react-native-1.0.2.tgz",
+  "_shasum": "a7f3df16f0eb6963263e466f7a77ce8de847da00",
   "_spec": "adyen-react-native",
-  "_where": "/Users/dmitry/Projects/hybrid-mobile-app",
+  "_where": "/Users/dmitry/Projects/adyen-react/samples/QuickIntegration",
   "author": {
     "name": "Dmitry Belov"
   },
@@ -53,5 +53,5 @@
   "scripts": {
     "test": "test"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

@@ -6,6 +6,15 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 * **Quick integration** – Benefit from a fully optimized out-of-the-box UI with the SDK.
 * **Custom integration** – Design your own UI while leveraging the underlying functionality of the SDK.
 
+## Dependencies
+* Node.js
+* npm
+* Android studio, Android SDK and correct PATH/ANDROID_HOME for it.
+
+### MacOS only for creating IOS Builds
+* Xcode 9+
+* Cocoapods (for installing IOS dependencies)
+
 ## Getting started
 
 `$ npm install adyen-react-native --save`
@@ -15,12 +24,14 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 
 ### IOS
 
-Create Podfile in ios with following content:
+* Open ios directory in you project and run `pod init`
+
+* Edit Podfile with following content
 ```
-  platform :ios, '9.0'
+  platform :ios, '10.0'
   use_frameworks!
   target 'Your Target Name' do
-	  pod 'Adyen',
+	  pod 'AdyenReactNative', :path => '../node_modules/adyen-react-native'
   end
 		
   post_install do |installer|
@@ -38,20 +49,8 @@ Create Podfile in ios with following content:
 `$ pod install`
 
 * Open YourProject.xcworkspace/
+* Open Your target > Build Settings and add `$(SRCROOT)/../node_modules/adyen-react-native/ios` to the `Header Search Paths` and `Library Search Paths` sections.
 
-* Create a group `Adyen` under your project *top level* and add files under directory node_modules/adyen-react-native/ios/ReactNativeCharts
-
-* Choose Group ForBeginner, create a empty swift file, the xcode will prompt creating a bridging file, let's name it `YourProject-Bridging-Header.h`
-
-* Replace content with:
-```
-    #import <React/RCTEventEmitter.h>
-    #import <React/RCTBridgeModule.h>
-    #import <React/RCTBridge.h>
-    #import <React/RCTEventDispatcher.h>
-```
-* Set `YourProject-Bridging-Header.h` in `Build Settings -> Swift Compiler - General -> Object-C Bridging Header`   
-* Set `No` in `Build Settings -> Swift Compiler - Version -> User Legacy Swift Language Version` 
 * Click run or use `$ react-native run-ios`
 
 ### Android
@@ -74,123 +73,41 @@ The Quick integration of the SDK provides UI components for payment method selec
 
 ```import Adyen from adyen-react-native```
 
+Add listeners for library's events
+
+Send `sdkToken` and `returnUrl` to your own server, which then needs to forward this data, among some other parameters, to the Adyen Checkout API. See the [API Explorer](https://docs.adyen.com/api-explorer/#/PaymentSetupAndVerificationService/v32/paymentSession) for more details.
+
 ```javascript
-Adyen.startPayment((sdkToken, returnUrl) => {
-  // TODO: Forward to your own server and request the payment session from Adyen with the given params.
-}, (resultCode, error) => {
-  // TODO: Handle error.
+Adyen.onRequestPaymentSession((token, returnUrl) => {
+    //send request to a server and get paymentSession from an Adyen's server
+});
+Adyen.onPaymentResult((code, payload) => {
+    //confirm payment
+});
+
+Adyen.onError((code, error) => {
+    //payment was cancelled or something else
 });
 ```
 
-Send `sdkToken` and `returnUrl` to your own server, which then needs to forward this data, among some other parameters, to the Adyen Checkout API. See the [API Explorer](https://docs.adyen.com/api-explorer/#/PaymentSetupAndVerificationService/v32/paymentSession) for more details.
+For starting payment proccess call:
+```javascript
+Adyen.startPayment();
+```
 
 ##### - Generating StartPaymentParameters
 After receiving the payment session data from your own server, use the `Adyen.confirmPayment` to handle the payment session response:
 
 ```javascript
-Adyen.confirmPayment(paymentSessionResponse, (payload) => {
-  // TODO: Start the desired checkout process.
-}, (resultCode, error) => {
-  // TODO: Handle error.
-});
-```
-
-
-##### - Starting the desired checkout process
-Adyen.startCheckoutProccess();
-
-##### - Handling onActivityResult
-After the payment has been processed, you will receive the result in your calling Activity:
-
-###### - Handle PaymentResult.
-```javascript
-Adyen.onActivityResultComplete((payload) => {
-  // Handle payload.
-});
-```
-
-###### - Handle cancellation or checkout exception.
-```javascript
-Adyen.onActivityResultError((resultCode, error) => {
-  // TODO: Handle error.
-});
+Adyen.confirmPayment(response.paymentSession);
 ```
 
 ## Custom integration
 
-#### Getting started
-It is possible to have more control over the payment flow — presenting your own UI for specific payment methods, filtering a list of payment methods, or implementing your own unique checkout experience. To get started, use the `Adyen.startPayment` class to start the payment:
+#### It will be implement as soon as possible. Thx.
 
-```javascript
-Adyen.startPayment((sdkToken, returnUrl) => {
-  // TODO: Forward to your own server and request the payment session from Adyen with the given params.
-}, (resultCode, error) => {
-  // TODO: Handle error.
-});
-```
-
-Send `sdkToken` and `returnUrl` to your own server, which then needs to forward this data, among some other parameters, to the Adyen Checkout API. See the [API Explorer](https://docs.adyen.com/api-explorer/#/PaymentSetupAndVerificationService/v32/paymentSession) for more details.
-
-##### - Create a PaymentSession
-After receiving the Base64 encoded payment session data from your own server, use the `Adyen.createPaymentSession` to handle the payment session response:
-
-```javascript
-Adyen.createPaymentSession(base64PaymentData, (paymentSession) => {
-  // TODO: handle paymentSession
-}, (resultCode, error) => {
-  // TODO: Handle error.
-});
-```
-
-From Adyen's official Guide:
-
-    With the `PaymentReference` you can retrieve an instance of a `PaymentHandler`. Here you can attach the desired Observers and Handlers in the scope of the current Activity (Observers and Handlers will automatically be removed when the `Activity` is destroyed):
-    
-    > `PaymentReference` is `Parcelable`, so you can pass it along to another `Activity`.
-
-You can handle each observer in your React Native Project:
-
-```javascript
-Adyen.onObserverNetworkingState((isExecutingRequests) => {
-  //Handle networkingState
-})
-```
-
-```javascript
-Adyen.onObserverPaymentSession((paymentSession) => {
-  //Handle paymentSession
-})
-```
-
-```javascript
-Adyen.onObserverPaymentResult((resultCode, payload) => {
-  //Handle paymentResult
-})
-```
-
-```javascript
-Adyen.onObserverRedirectDetails((uri) => {
-  //Handle redirectDetails
-})
-```
-
-```javascript
-Adyen.onObserverAdditionalDetails((paymentMethodType, inputDetails) => {
-  //Handle additionalDetails
-})
-```
-
-```javascript
-Adyen.onObserverException((error) => {
-  //Handle additionalDetails
-})
-```
-
-In order to make a payment, select a `PaymentMethod` and retrieve the according `PaymentMethodDetails` from the shopper.
-
-```javascript
-Adyen.initiatePayment(paymentMethod, paymentMethodDetails);
-```
+## Samples
+* [Quick integration Sample](https://github.com/dmitry-blackwave/adyen-react-native-samples/tree/master/QuickStart)
 
 ## See also
  * [Adyen Android SDK GitHub](https://github.com/Adyen/adyen-android)
