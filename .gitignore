@@ -5,3 +5,5 @@ xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 android/build
+android/.idea/*
+android/.gradle/*
