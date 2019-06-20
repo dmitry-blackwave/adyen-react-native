@@ -105,6 +105,8 @@ import Adyen
 * AppDelegate.m file add the below function
 ```
 .....
+#import "<yourProjectName>-Swift.h"
+.....
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
   
   BOOL handledAdyen =[AdyenObjectiveCBridge applicationDidOpenURL:url];
