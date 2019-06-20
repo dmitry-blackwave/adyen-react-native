@@ -12,7 +12,7 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 * Android studio, Android SDK and correct PATH/ANDROID_HOME for it.
 
 ### MacOS only for creating IOS Builds
-* Xcode 9+
+* Xcode 10.2+
 * Cocoapods (for installing IOS dependencies)
 
 ## Getting started
@@ -28,7 +28,7 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 
 * Edit Podfile with following content
 ```
-  platform :ios, '10.0'
+  platform :ios, '11.0'
   use_frameworks!
   target 'Your Target Name' do
 	  pod 'AdyenReactNative', :path => '../node_modules/adyen-react-native'
