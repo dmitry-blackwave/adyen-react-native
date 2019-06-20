@@ -33,16 +33,6 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
   target 'Your Target Name' do
 	  pod 'AdyenReactNative', :path => '../node_modules/adyen-react-native'
   end
-		
-  post_install do |installer|
-    installer.pods_project.targets.each do |target|
-      if target.name == 'Adyen'
-        target.build_configurations.each do |config|
-          config.build_settings['SWIFT_VERSION'] = '4.0'
-        end
-      end
-    end
-  end
 ```
 
 * Run:
