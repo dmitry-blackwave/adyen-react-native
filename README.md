@@ -26,7 +26,7 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 
 * Open ios directory in you project and run `pod init`
 
-* For ios < 10.2
+#### For ios < 10.2
 
 * Edit Podfile with following content
 ```
@@ -55,7 +55,7 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 
 * Click run or use `$ react-native run-ios`
 
-* For XCode > 10.2
+#### For XCode > 10.2
 
 * Edit Podfile with following content
 ```
