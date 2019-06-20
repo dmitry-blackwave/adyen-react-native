@@ -1,0 +1,11 @@
+framework module AdyenInternal {
+  umbrella header "AdyenInternal-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AdyenInternal.Swift {
+    header "AdyenInternal-Swift.h"
+    requires objc
+}
