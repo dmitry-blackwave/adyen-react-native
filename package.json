@@ -15,6 +15,7 @@
     "saveSpec": null,
     "fetchSpec": "latest"
   },
+  "types": "index.d.ts",
   "_requiredBy": [
     "#USER",
     "/"
