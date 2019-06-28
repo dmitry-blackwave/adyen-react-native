@@ -56,7 +56,7 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 * Click run or use `$ react-native run-ios`
 
 #### For XCode > 10.2
-
+* React native version > 0.59.3
 * Edit Podfile with following content
 ```
   platform :ios, '11.0'
