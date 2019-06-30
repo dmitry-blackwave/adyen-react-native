@@ -12,7 +12,7 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 * Android studio, Android SDK and correct PATH/ANDROID_HOME for it.
 
 ### MacOS only for creating IOS Builds
-* Xcode 9+
+* Xcode 10.2+
 * Cocoapods (for installing IOS dependencies)
 
 ## Getting started
@@ -25,6 +25,8 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 ### IOS
 
 * Open ios directory in you project and run `pod init`
+
+#### For ios < 10.2
 
 * Edit Podfile with following content
 ```
@@ -50,6 +52,71 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 
 * Open YourProject.xcworkspace/
 * Open Your target > Build Settings and add `$(SRCROOT)/../node_modules/adyen-react-native/ios` to the `Header Search Paths` and `Library Search Paths` sections.
+
+* Click run or use `$ react-native run-ios`
+
+#### For XCode > 10.2
+* React native version > 0.59.3
+* Edit Podfile with following content
+```
+  platform :ios, '11.0'
+  use_frameworks!
+  target 'Your Target Name' do
+	  pod 'AdyenReactNative', :path => '../node_modules/adyen-react-native'
+  end
+```
+
+* Run:
+`$ pod install`
+
+* Modify the OS Version for AdyenReactNativeProject to 11.3 to avoid armv7 missing architecture
+
+* Replace the Adyen framework in your nodemodules ios folder with the newly swift 5 compiled version from the Pods to <RNN Project>/node_modules/adyen-react-native/ios like below
+
+![image](https://user-images.githubusercontent.com/5992474/59888148-eaf08000-93e3-11e9-8797-d629580bbf65.png)
+
+Copy Adyen3DS2 from Pods/Adyen3DS2/Frameworks and then Copy from Products Folder Adyen.Framework,AdyenInternal.framework and AdyenInternal.bundle
+
+<img width="878" alt="image" src="https://user-images.githubusercontent.com/5992474/59561614-1b30cb00-9040-11e9-81b0-7597b527fd4b.png">
+
+
+* Link the project manually
+
+* As per the facebook link below create a empty swift file and create the bridege in your parent RN project,
+
+<img width="1297" alt="image" src="https://user-images.githubusercontent.com/5992474/59561736-2f28fc80-9041-11e9-8230-024c9a890e2e.png">
+
+<img width="794" alt="image" src="https://user-images.githubusercontent.com/5992474/59561748-4cf66180-9041-11e9-9721-d0c46f180457.png">
+
+* Within <YourProject.swift> empty file add the following,
+```
+import Foundation
+import Adyen
+
+@objc class AdyenObjectiveCBridge: NSObject {
+  
+  @objc(applicationDidOpenURL:)
+  static func applicationDidOpen(_ url: URL) -> Bool {
+     let adyenHandled = Adyen.applicationDidOpen(url)
+     return adyenHandled
+  }
+}
+```
+* AppDelegate.m file add the below function
+```
+.....
+#import "<yourProjectName>-Swift.h"
+.....
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+  
+  BOOL handledAdyen =[AdyenObjectiveCBridge applicationDidOpenURL:url];
+  
+  return handledAdyen;
+}
+.....
+```
+* Open YourProject.xcworkspace/
+* Open Your target > Build Settings and add `$(SRCROOT)/../node_modules/adyen-react-native/ios` to the `Header Search Paths` and `Library Search Paths` and `Framework Search Paths`
 
 * Click run or use `$ react-native run-ios`
 

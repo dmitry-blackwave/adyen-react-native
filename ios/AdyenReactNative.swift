@@ -36,9 +36,6 @@ extension AdyenReactNative: CheckoutControllerDelegate {
         }
     }
     
-    func provideAdditionalDetails(_ additionalDetails: AdditionalPaymentDetails, for paymentMethod: PaymentMethod, detailsHandler: @escaping Completion<[PaymentDetail]>){
-    }
-    
     func requestPaymentSession(withToken token: String, for checkoutController: CheckoutController, responseHandler: @escaping (String) -> ()) {
         self.adyenResponseHandler = responseHandler
         self.sendEvent(
@@ -52,7 +49,6 @@ extension AdyenReactNative: CheckoutControllerDelegate {
     }
     
     func didFinish(with result: Result<PaymentResult>, for checkoutController: CheckoutController) {
-        print(result)
         switch result {
         case let .success(paymentResult):
             self.sendEvent(withName: "onPaymentResult", body: ["code": (paymentResult.status == .received || paymentResult.status == .authorised), "payload": paymentResult.payload])
@@ -95,11 +91,15 @@ extension AdyenReactNative: PaymentControllerDelegate, SFSafariViewControllerDel
     }
     
     func didFinish(with result: Result<PaymentResult>, for paymentController: PaymentController) {
-        print("work Done")
+        
     }
     
     func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
         controller.dismiss(animated: true, completion: nil)
+    }
+    
+    func provideAdditionalDetails(_ additionalDetails: AdditionalPaymentDetails, for paymentMethod: PaymentMethod, detailsHandler: @escaping Completion<[PaymentDetail]>){
+        
     }
     
     @objc func initPayment() {
