@@ -7,3 +7,5 @@ export function confirmPayment(token: string): void;
 export function onRequestPaymentSession(
   callback: (token: string, returnUrl: string) => void
 ): void;
+export function removeListeners(): void;
+export function createPaymentSession(callback: (token: string) => void): void;
