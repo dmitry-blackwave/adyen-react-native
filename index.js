@@ -2,6 +2,10 @@ import {NativeEventEmitter, NativeModules} from 'react-native';
 
 const Adyen = NativeModules.Adyen || NativeModules.AdyenReactNative;
 const events = new NativeEventEmitter(Adyen);
+let onRequestPaymentSessionListener;
+let onPaymentResultListener;
+let onErrorListener;
+let onSelectPaymentMethodListener;
 
 export default {
     /**
@@ -51,7 +55,7 @@ export default {
      */
     onRequestPaymentSession(mOnRequestPaymentSession) {
         this._validateParam(mOnRequestPaymentSession, 'onRequestPaymentSession', 'function');
-        events.addListener('onRequestPaymentSession', (response) => {
+        onRequestPaymentSessionListener = events.addListener('onRequestPaymentSession', (response) => {
             mOnRequestPaymentSession(response['token'], response['returnUrl']);
         });
     },
@@ -66,7 +70,7 @@ export default {
      */
     onPaymentResult(mOnPaymentResult) {
         this._validateParam(mOnPaymentResult, 'onPaymentResult', 'function');
-        events.addListener('onPaymentResult', (response) => {
+        onPaymentResultListener = events.addListener('onPaymentResult', (response) => {
             mOnPaymentResult(response['code'], response['payload']);
         });
     },
@@ -81,8 +85,8 @@ export default {
      */
     onError(mOnError) {
         this._validateParam(mOnError, 'onError', 'function');
-        events.addListener('onError', (response) => {
-            mOnRequestPaymentSession(response['code'], response['message']);
+        onErrorListener = events.addListener('onError', (response) => {
+            mOnError(response['code'], response['message']);
         });
     },
     /**
@@ -97,7 +101,7 @@ export default {
      */
     onSelectPaymentMethod(mOnSelectPaymentMethod) {
         this._validateParam(mOnSelectPaymentMethod, 'onSelectPaymentMethod', 'function');
-        events.addListener('onSelectPaymentMethod', (response) => {
+        onSelectPaymentMethodListener = events.addListener('onSelectPaymentMethodListener;', (response) => {
             mOnSelectPaymentMethod(response['preferred'], response['other'], response['count']);
         });
     },
@@ -112,5 +116,15 @@ export default {
             throw new Error(`Error: Adyen.${methodName}() requires a ${requiredType === 'function' ? 'callback function' : requiredType} but got a ${typeof param}`);
         }
     },
-    events
+    events,
+    removeListeners(){
+        if(null != onRequestPaymentSessionListener)   
+            onRequestPaymentSessionListener.remove();
+        if(null != onPaymentResultListener)
+            onPaymentResultListener.remove();
+        if(null != onErrorListener)
+            onErrorListener.remove();
+        if(null != onSelectPaymentMethodListener)
+            onSelectPaymentMethodListener.remove();
+    }
 };

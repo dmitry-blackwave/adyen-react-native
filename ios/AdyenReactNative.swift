@@ -98,6 +98,10 @@ extension AdyenReactNative: PaymentControllerDelegate, SFSafariViewControllerDel
         controller.dismiss(animated: true, completion: nil)
     }
     
+    func provideAdditionalDetails(_ additionalDetails: AdditionalPaymentDetails, for paymentMethod: PaymentMethod, detailsHandler: @escaping Completion<[PaymentDetail]>){
+        
+    }
+    
     @objc func initPayment() {
         paymentController = PaymentController(delegate: self)
         paymentController?.start()
