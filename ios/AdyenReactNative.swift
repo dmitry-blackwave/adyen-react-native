@@ -25,6 +25,13 @@ class AdyenReactNative: RCTEventEmitter {
 
 extension AdyenReactNative: CheckoutControllerDelegate {
     
+    func isCardScanEnabled(for paymentMethod: PaymentMethod){
+        if(paymentMethod == "card"){
+            return true
+        }
+        return false
+    }
+    
     @objc func startPayment() {
         checkoutController = CheckoutController(presentingViewController: (UIApplication.shared.delegate?.window??.rootViewController)!, delegate: self)
         checkoutController!.start()
