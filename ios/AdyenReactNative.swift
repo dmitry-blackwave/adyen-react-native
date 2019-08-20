@@ -30,7 +30,12 @@ extension AdyenReactNative: CheckoutControllerDelegate {
     }
     
     @objc func startPayment() {
-        checkoutController = CheckoutController(presentingViewController: (UIApplication.shared.delegate?.window??.rootViewController)!, delegate: self)
+        var appearance: Appearance = {
+            var appearance = Appearance()
+            appearance.tintColor = UIColor(red:0.12, green:0.76, blue:0.42, alpha:1.0)
+            return appearance
+        }()
+        checkoutController = CheckoutController(presentingViewController: (UIApplication.shared.delegate?.window??.rootViewController)!, delegate: self, appearance: appearance)
         checkoutController!.start()
     }
     
