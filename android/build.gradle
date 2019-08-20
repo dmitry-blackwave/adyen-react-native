@@ -33,12 +33,15 @@ allprojects {
     }
 }
 
+final checkoutVersion = "2.4.5"
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile "android.arch.lifecycle:extensions:${rootProject.ext.lifecycleVersion}"
-    compile "android.arch.core:runtime:${rootProject.ext.lifecycleVersion}"
-    compile "android.arch.lifecycle:viewmodel:${rootProject.ext.lifecycleVersion}"
-    compile "com.adyen.checkout:ui:2.3.2"
-    compile "com.adyen.checkout:core-card:2.3.2"
-    compile "com.adyen.checkout:util:2.3.2"
+    implementation 'com.facebook.react:react-native:+'
+    implementation "android.arch.lifecycle:extensions:${rootProject.ext.lifecycleVersion}"
+    implementation "android.arch.core:runtime:${rootProject.ext.lifecycleVersion}"
+    implementation "android.arch.lifecycle:viewmodel:${rootProject.ext.lifecycleVersion}"
+    implementation "com.adyen.checkout:ui:${checkoutVersion}"
+    implementation "com.adyen.checkout:core:${checkoutVersion}"
+    implementation "com.adyen.checkout:core-card:${checkoutVersion}" // Optional; Required for processing card payments.
+    implementation "com.adyen.checkout:nfc:${checkoutVersion}" // Optional; Enables reading of card information with the device"s NFC chip.
+    implementation "com.adyen.checkout:util:${checkoutVersion}"
 }

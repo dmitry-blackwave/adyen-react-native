@@ -58,6 +58,11 @@ public class AdyenModule extends ReactContextBaseJavaModule implements ActivityE
     }
 
     @ReactMethod
+    public void cancelPayment() {
+
+    }
+
+    @ReactMethod
     public void startPayment() {
         CheckoutController.startPayment(getCurrentActivity(), new CheckoutSetupParametersHandler() {
             @Override
@@ -72,7 +77,7 @@ public class AdyenModule extends ReactContextBaseJavaModule implements ActivityE
             @Override
             public void onError(@NonNull CheckoutException error) {
                 WritableMap params = Arguments.createMap();
-                params.putInt("code", error.hashCode());
+                params.putString("code", error.getPayload());
                 params.putString("message", error.getMessage());
                 sendEvent(getReactApplicationContext(), "onError", params);
                 Log.d("Debug", error.getMessage());
@@ -86,18 +91,22 @@ public class AdyenModule extends ReactContextBaseJavaModule implements ActivityE
             @Override
             public void run() {
                 try {
-                    CheckoutController.handlePaymentSessionResponse(getCurrentActivity(), encodedPaymentSession, new StartPaymentParametersHandler() {
-                        @Override
-                        public void onPaymentInitialized(@NonNull StartPaymentParameters startPaymentParameters) {
-                            paymentMethodHandler = CheckoutController.getCheckoutHandler(startPaymentParameters);
-                            paymentMethodHandler.handlePaymentMethodDetails(getCurrentActivity(), REQUEST_CODE_CHECKOUT);
-                        }
+                    CheckoutController.handlePaymentSessionResponse(getCurrentActivity(), encodedPaymentSession,
+                            new StartPaymentParametersHandler() {
+                                @Override
+                                public void onPaymentInitialized(
+                                        @NonNull StartPaymentParameters startPaymentParameters) {
+                                    paymentMethodHandler = CheckoutController
+                                            .getCheckoutHandler(startPaymentParameters);
+                                    paymentMethodHandler.handlePaymentMethodDetails(getCurrentActivity(),
+                                            REQUEST_CODE_CHECKOUT);
+                                }
 
-                        @Override
-                        public void onError(@NonNull CheckoutException error) {
-                            Log.d("CheckoutException", error.getMessage());
-                        }
-                    });
+                                @Override
+                                public void onError(@NonNull CheckoutException error) {
+                                    Log.d("CheckoutException", error.getMessage());
+                                }
+                            });
                 } catch (Exception e) {
                     Log.d("Exception", e.toString());
                 }
@@ -111,20 +120,23 @@ public class AdyenModule extends ReactContextBaseJavaModule implements ActivityE
             @Override
             public void run() {
                 try {
-                    CheckoutController.handlePaymentSessionResponse(getCurrentActivity(), encodedPaymentSession, new StartPaymentParametersHandler() {
-                        @Override
-                        public void onPaymentInitialized(@NonNull StartPaymentParameters startPaymentParameters) {
-                            paymentReference = startPaymentParameters.getPaymentReference();
-                            mPaymentHandler = paymentReference.getPaymentHandler(getCurrentActivity());
-                            WritableMap jsonPayment = preparePaymentSession(startPaymentParameters.getPaymentSession());
-                            onReadyForPayment.invoke(jsonPayment);
-                        }
+                    CheckoutController.handlePaymentSessionResponse(getCurrentActivity(), encodedPaymentSession,
+                            new StartPaymentParametersHandler() {
+                                @Override
+                                public void onPaymentInitialized(
+                                        @NonNull StartPaymentParameters startPaymentParameters) {
+                                    paymentReference = startPaymentParameters.getPaymentReference();
+                                    mPaymentHandler = paymentReference.getPaymentHandler(getCurrentActivity());
+                                    WritableMap jsonPayment = preparePaymentSession(
+                                            startPaymentParameters.getPaymentSession());
+                                    onReadyForPayment.invoke(jsonPayment);
+                                }
 
-                        @Override
-                        public void onError(@NonNull CheckoutException error) {
-                            Log.d("CheckoutException", error.getMessage());
-                        }
-                    });
+                                @Override
+                                public void onError(@NonNull CheckoutException error) {
+                                    Log.d("CheckoutException", error.getMessage());
+                                }
+                            });
                 } catch (Exception e) {
                     Log.d("Exception", e.toString());
                 }
@@ -173,29 +185,27 @@ public class AdyenModule extends ReactContextBaseJavaModule implements ActivityE
     }
 
     @Override
-    public void onActivityResult(final Activity activity, final int requestCode, final int resultCode, final Intent data) {
+    public void onActivityResult(final Activity activity, final int requestCode, final int resultCode,
+            final Intent data) {
         if (requestCode == REQUEST_CODE_CHECKOUT) {
             if (resultCode == PaymentMethodHandler.RESULT_CODE_OK) {
                 PaymentResult paymentResult = PaymentMethodHandler.Util.getPaymentResult(data);
                 WritableMap params = Arguments.createMap();
-                params.putInt("code", resultCode);
+                params.putString("code", paymentResult.getResultCode().toString());
                 params.putString("payload", paymentResult.getPayload());
                 this.sendEvent(getReactApplicationContext(), "onPaymentResult", params);
             } else {
                 CheckoutException checkoutException = PaymentMethodHandler.Util.getCheckoutException(data);
                 WritableMap params = Arguments.createMap();
-                params.putInt("code", resultCode);
+                PaymentResult paymentResult = PaymentMethodHandler.Util.getPaymentResult(data);
+                params.putString("code", paymentResult.getResultCode().toString());
                 params.putString("message", "exception");
                 this.sendEvent(getReactApplicationContext(), "onError", params);
             }
         }
     }
 
-    private void sendEvent(ReactContext reactContext,
-                           String eventName,
-                           @Nullable WritableMap params) {
-        reactContext
-                .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-                .emit(eventName, params);
+    private void sendEvent(ReactContext reactContext, String eventName, @Nullable WritableMap params) {
+        reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class).emit(eventName, params);
     }
 }

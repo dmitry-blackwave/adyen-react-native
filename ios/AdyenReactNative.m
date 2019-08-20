@@ -5,4 +5,5 @@
     RCT_EXTERN_METHOD(startPayment)
     RCT_EXTERN_METHOD(confirmPayment:(NSString)encodedToken)
     RCT_EXTERN_METHOD(initPayment)
+    RCT_EXTERN_METHOD(cancelPayment)
 @end

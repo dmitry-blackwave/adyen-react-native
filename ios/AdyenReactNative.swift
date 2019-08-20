@@ -25,11 +25,8 @@ class AdyenReactNative: RCTEventEmitter {
 
 extension AdyenReactNative: CheckoutControllerDelegate {
     
-    func isCardScanEnabled(for paymentMethod: PaymentMethod) -> Bool {
-//        if(paymentMethod.type == "card"){
-            return true
-//        }
-//        return false
+    @objc func cancelPayment() {
+        checkoutController?.cancel()
     }
     
     @objc func startPayment() {
@@ -58,16 +55,19 @@ extension AdyenReactNative: CheckoutControllerDelegate {
     func didFinish(with result: Result<PaymentResult>, for checkoutController: CheckoutController) {
         switch result {
         case let .success(paymentResult):
-            self.sendEvent(withName: "onPaymentResult", body: ["code": (paymentResult.status == .received || paymentResult.status == .authorised), "payload": paymentResult.payload])
+            self.sendEvent(withName: "onPaymentResult", body: ["code": paymentResult.status.rawValue.uppercased(), "payload": paymentResult.payload])
         case let .failure(error):
             switch error {
             case PaymentController.Error.cancelled:
                 self.sendEvent(
                     withName: "onError",
-                    body: ["code": PaymentController.Error.cancelled, "message": "Payment was cancelled"]
+                    body: ["code": "CANCELLED", "message": "Payment was cancelled"]
                 )
             default:
-                break
+                self.sendEvent(
+                    withName: "onError",
+                    body: ["code": "Error", "message": error.localizedDescription]
+                )
             }
         }
     }

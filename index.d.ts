@@ -9,3 +9,4 @@ export function onRequestPaymentSession(
 ): void;
 export function removeListeners(): void;
 export function createPaymentSession(callback: (token: string) => void): void;
+export function cancelPayment(): void;
