@@ -43,6 +43,7 @@
     "iOS",
     "adyen"
   ],
+  "types": "./index.d.ts",
   "license": "MIT",
   "main": "index.js",
   "name": "adyen-react-native",
