@@ -1,28 +1,28 @@
 {
-  "_from": "adyen-react-native",
-  "_id": "adyen-react-native@1.0.3",
+  "_from": "adyen-react-native@1.3.0",
+  "_id": "adyen-react-native@1.3.0",
   "_inBundle": false,
-  "_integrity": "sha512-kOtlCVT1qAK76+rhLHBQHprREUlLcvfVJpL0ZeCKc2np+Tua3CdW9D6l+QzPWnHWili4Z8na50/09DvOJjwkjQ==",
+  "_integrity": "sha512-tOhKiY/jswf1FFFKMJRRT3BYJx0VO14bauLG4e85mcyEMqL4aDNtdul2l9dRIDkD54ou5TUAwJrsxeYuGc5B4Q==",
   "_location": "/adyen-react-native",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "adyen-react-native",
+    "raw": "adyen-react-native@1.3.0",
     "name": "adyen-react-native",
     "escapedName": "adyen-react-native",
-    "rawSpec": "",
+    "rawSpec": "1.3.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "1.3.0"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/adyen-react-native/-/adyen-react-native-1.0.2.tgz",
-  "_shasum": "a7f3df16f0eb6963263e466f7a77ce8de847da00",
-  "_spec": "adyen-react-native",
-  "_where": "/Users/dmitry/Projects/adyen-react/samples/QuickIntegration",
+  "_resolved": "https://registry.npmjs.org/adyen-react-native/-/adyen-react-native-1.3.0.tgz",
+  "_shasum": "c587f6803248b1cc234eb2c9235c3758cb0b0f03",
+  "_spec": "adyen-react-native@1.3.0",
+  "_where": "/Users/macbook/Projects/hybrid-mobile-app",
   "author": {
     "name": "Dmitry Belov"
   },
@@ -53,5 +53,5 @@
   "scripts": {
     "test": "test"
   },
-  "version": "1.2.0"
+  "version": "1.3.0"
 }

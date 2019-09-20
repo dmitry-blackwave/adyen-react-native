@@ -71,7 +71,7 @@ export default {
     onPaymentResult(mOnPaymentResult) {
         this._validateParam(mOnPaymentResult, 'onPaymentResult', 'function');
         onPaymentResultListener = events.addListener('onPaymentResult', (response) => {
-            mOnPaymentResult(response['code'], response['payload']);
+            mOnPaymentResult(response['code'], response['payload'], response['paymentMethod'] || 'scheme', response['status']);
         });
     },
     /**

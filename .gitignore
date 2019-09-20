@@ -1,9 +1,10 @@
-.idea/*
+.idea
 ios/Pods
 .DS_STORE
 xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 android/build
-android/.idea/*
-android/.gradle/*
+android/.idea
+android/.gradle
+.gradle
