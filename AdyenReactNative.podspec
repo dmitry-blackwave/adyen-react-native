@@ -13,10 +13,11 @@ Pod::Spec.new do |s|
 
   s.platform       = :ios, "11.0"
   s.source         = { :git => "https://github.com/author/AdyenReactNative.git" }
-  s.source_files   = "./*.{h,m,swift}"
+  s.source_files   = "ios/*.{h,m,swift}"
   s.requires_arc   = true
 
-  s.dependency "Adyen","2.8.4"
-  s.dependency "Adyen/ApplePay","2.8.4"
+  s.dependency "React"
+  s.dependency "Adyen","2.8.5"
+  s.dependency "Adyen/ApplePay","2.8.5"
 
 end

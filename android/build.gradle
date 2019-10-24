@@ -38,7 +38,7 @@ dependencies {
     compile "android.arch.lifecycle:extensions:${rootProject.ext.lifecycleVersion}"
     compile "android.arch.core:runtime:${rootProject.ext.lifecycleVersion}"
     compile "android.arch.lifecycle:viewmodel:${rootProject.ext.lifecycleVersion}"
-    compile "com.adyen.checkout:ui:2.3.2"
-    compile "com.adyen.checkout:core-card:2.3.2"
-    compile "com.adyen.checkout:util:2.3.2"
+    compile "com.adyen.checkout:ui:2.4.5"
+    compile "com.adyen.checkout:core-card:2.4.5"
+    compile "com.adyen.checkout:util:2.4.5"
 }
