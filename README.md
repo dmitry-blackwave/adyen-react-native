@@ -71,6 +71,8 @@ To give you as much flexibility as possible, Adyen SDK can be integrated via thi
 
 * Modify the OS Version for AdyenReactNativeProject to 11.3 to avoid armv7 missing architecture
 
+##### For RN > 0.60 skip the below steps until Manual Linking and conitnue with the rest of the  steps
+
 * Replace the Adyen framework in your nodemodules ios folder with the newly swift 5 compiled version from the Pods to <RNN Project>/node_modules/adyen-react-native/ios like below
 
 ![image](https://user-images.githubusercontent.com/5992474/59888148-eaf08000-93e3-11e9-8797-d629580bbf65.png)
